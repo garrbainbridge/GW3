@@ -31,7 +31,7 @@ table {
 }
 /*Nav bar*/
 header {
-    background-image: url(/images/ofa/all3.png);
+    background-image:url(/images/ofa/all3.png);
     height: 550px;
     background-attachment: fixed;
     background-size: contain;
@@ -183,7 +183,7 @@ animation:slidebg 2s linear infinite;
 }
 /*UA*/
 .UA{
-    background-image: url(/images/1a/ua.jpg);
+    background-image:url(/images/1a/ua.jpg);
     height: 800px;
     background-attachment: fixed;
     background-position: center;
@@ -301,12 +301,12 @@ animation:slidebg 2s linear infinite;
     backface-visibility: hidden;
   }
 .flip-card-front {
-    background-image: url(/images/1a/normalbg.jpg);
+    background-image:url(/images/1a/normalbg.jpg);
     color: black;
     border: 4px solid black;
   }
 .flip-card-back {
-    background-image: url(/images/1a/herobg.jpg);
+    background-image:url(/images/1a/herobg.jpg);
     color: white;
     transform: rotateY(180deg);
     border: 4px solid black;
@@ -339,7 +339,7 @@ animation:slidebg 2s linear infinite;
     margin: 20px 0px;
 }
 .world{
-    background-image: url(/images/home/worlds2.jpeg);
+    background-image:url(/images/home/worlds2.jpeg);
     height: 800px;
     background-attachment: fixed;
     background-size: cover;
@@ -493,13 +493,13 @@ animation:slidebg 2s linear infinite;
     line-height: 1.5em;
 }
 .ghosts {
-    background-image: url(/images/ofa/all2.png);
+    background-image:url(/images/ofa/all2.png);
     height: 500px;
     background-attachment: fixed;
     background-size: cover;
 }
 .all {
-    background-image: url(/images/ofa/chair.jpeg);
+    background-image:url(/images/ofa/chair.jpeg);
     height: 500px;
     background-attachment: fixed;
     background-size: cover;
@@ -528,7 +528,7 @@ animation:slidebg 2s linear infinite;
     filter: grayscale(.8);
     overflow: hidden;
   }
-  figure::before {
+  .quirk figure::before, .pro figure::before {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -542,7 +542,7 @@ animation:slidebg 2s linear infinite;
     transform: translate(-50%, -50%);
     opacity: 0;
   }
-  figure:hover::before {
+  .quirk figure:hover::before, .pro figure:hover::before {
     animation: circle .75s;
   }
   @keyframes bloom {
@@ -581,102 +581,6 @@ footer {
     color: #A77B0E;
 }
 /*Media Quaries*/
-/*@media screen and (min-width:500px){
-    .oneforall img, .quirk aside img, .quirk article img {
-        width: 200px;
-    }
-    .oneforall figure, .quirk figure{
-        width: 200px;
-    }
-    .oneforall .top, .oneforall .middle, .oneforall .bottom, .oneforall .current{
-        width: 480px;
-    }
-    nav ul li {
-        width: 50px;
-        padding: 5px;
-    }
-    .intro {
-        height: 950px;
-    }
-    .ghosts, .all {
-        height: 0%;
-    }
-    header, .ua {
-        height:180px
-    }
-    .flip-card-front img, .flip-card-back img {
-        width: 150px;
-    }
-    .flip-card {
-        width: 200px;
-        height: 320px;
-    }
-    .student figcaption {
-        width: 400px;
-    }
-    
-    .toggle:checked + .lbl-toggle + .collapsible-content {
-        max-height: 1340vh;
-    }
-    .pro img {
-        width: 300px;
-    }
-    .pro figure {
-        width: 300px;
-        height: 169px;
-    }
-}
-@media screen and (min-width:700px){
-    .oneforall img{
-        width: 200px;
-    }
-    .quirk aside img, .quirk article img {
-        width: 300px;
-    }
-    .oneforall figure{
-        width: 200px;
-    }
-    .quirk figure{
-        width: 300px;
-    }
-    .oneforall .top, .oneforall .middle, .oneforall .bottom, .oneforall .current{
-        width: 800px;
-    }
-    nav ul li {
-        width: 50px;
-        padding: 5px;
-    }
-    .intro {
-        height: 680px;
-    }
-    .ghosts, .all {
-        height: 0%;
-    }
-    header, .ua {
-        height:180px
-    }
-    .flip-card-front img, .flip-card-back img {
-        width: 200px;
-    }
-    .flip-card {
-        width: 300px;
-        height: 410px;
-    }
-    .student figcaption {
-        width: 500px;
-    }
-    
-    .toggle:checked + .lbl-toggle + .collapsible-content {
-        max-height: 1488vh;
-    }
-    .pro img {
-        width: 400px;
-    }
-    .pro figure {
-        width: 400px;
-        height: 225px;
-    }
-} */
   }
 @media screen and (max-width:1200px){
     .intro {
