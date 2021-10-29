@@ -31,7 +31,7 @@ table {
 }
 /*Nav bar*/
 header {
-    background: url(/images/ofa/all3.png);
+    background-image: url(/images/ofa/all3.png);
     height: 550px;
     background-attachment: fixed;
     background-size: contain;
@@ -183,7 +183,7 @@ animation:slidebg 2s linear infinite;
 }
 /*UA*/
 .UA{
-    background: url(/images/1a/ua.jpg);
+    background-image: url(/images/1a/ua.jpg);
     height: 800px;
     background-attachment: fixed;
     background-position: center;
@@ -250,7 +250,7 @@ animation:slidebg 2s linear infinite;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background: url(/images/1a/sky.jpg);
+    background-image: url(/images/1a/sky.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: inherit;
@@ -301,12 +301,12 @@ animation:slidebg 2s linear infinite;
     backface-visibility: hidden;
   }
 .flip-card-front {
-    background: url(/images/1a/normalbg.jpg);
+    background-image: url(/images/1a/normalbg.jpg);
     color: black;
     border: 4px solid black;
   }
 .flip-card-back {
-    background: url(/images/1a/herobg.jpg);
+    background-image: url(/images/1a/herobg.jpg);
     color: white;
     transform: rotateY(180deg);
     border: 4px solid black;
@@ -339,7 +339,7 @@ animation:slidebg 2s linear infinite;
     margin: 20px 0px;
 }
 .world{
-    background: url(/images/home/worlds2.jpeg);
+    background-image: url(/images/home/worlds2.jpeg);
     height: 800px;
     background-attachment: fixed;
     background-size: cover;
@@ -493,13 +493,13 @@ animation:slidebg 2s linear infinite;
     line-height: 1.5em;
 }
 .ghosts {
-    background: url(/images/ofa/all2.png);
+    background-image: url(/images/ofa/all2.png);
     height: 500px;
     background-attachment: fixed;
     background-size: cover;
 }
 .all {
-    background: url(/images/ofa/chair.jpeg);
+    background-image: url(/images/ofa/chair.jpeg);
     height: 500px;
     background-attachment: fixed;
     background-size: cover;
